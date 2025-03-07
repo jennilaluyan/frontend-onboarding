@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Montserrat", "sans-serif";
+    }
+    h1 {
+      font-size: 10vw;
+      text-transform: uppercase;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(100vh);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    body {
+      animation: fadeInUp 2s;
+    }
+  </style>
+  <body>
+    <h1>thank you</h1>
+  </body>
+</html>
